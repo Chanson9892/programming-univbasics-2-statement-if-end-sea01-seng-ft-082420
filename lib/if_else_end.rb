@@ -6,3 +6,5 @@ if current_time % 2 == 0
 else
   puts "Odd!"
 end
+# could have written it like if Time.now.to_i % 2 == 0
+# or if current_time.even?
